@@ -11,7 +11,7 @@ public class DemoArea {
         area = areaOfARectangle.area();
         System.out.println("Площадь прямоугольника равна: " + area);
 
-        AreaOfATriangle areaOfATriangle = new AreaOfATriangle(15.5, 20.5);
+        AreaOfATriangle areaOfATriangle = new AreaOfATriangle(5.0, 5.0, 5.0);
         area = areaOfATriangle.area();
         System.out.println("Площадь треугольника равна: " + area);
     }
