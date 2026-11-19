@@ -21,4 +21,8 @@ public class DummyTest {
         System.out.println(sumArray());
         return 0;
     }
+
+    public static void helloFromManeha() {
+        System.out.println("Hello from Maneha!");
+    }
 }
