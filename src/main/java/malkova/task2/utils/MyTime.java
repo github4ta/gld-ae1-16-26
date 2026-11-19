@@ -5,6 +5,6 @@ public class MyTime {
         int hours = timeSeconds / 3600;
         int minutes = (timeSeconds % 3600) / 60;
         int seconds = timeSeconds % 60;
-        System.out.println(hours + "hours" + minutes + "minutes" + seconds + "seconds");
+        System.out.println(hours + "hours " + minutes + "minutes " + seconds + "seconds");
     }
 }
