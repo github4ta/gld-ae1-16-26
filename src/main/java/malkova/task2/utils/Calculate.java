@@ -1,4 +1,4 @@
-package malkova.utils;
+package malkova.task2.utils;
 
 public class Calculate {
     public static int getMax(int[] numbers) {

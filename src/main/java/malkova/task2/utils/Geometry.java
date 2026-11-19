@@ -1,4 +1,4 @@
-package malkova.utils;
+package malkova.task2.utils;
 
 public class Geometry {
     public static String getRoots(int a, int b, int c) {

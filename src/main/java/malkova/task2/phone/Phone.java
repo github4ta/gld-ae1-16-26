@@ -1,4 +1,4 @@
-package malkova.phone;
+package malkova.task2.phone;
 
 public class Phone {
     private String number;
