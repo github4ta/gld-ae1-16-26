@@ -6,4 +6,8 @@ public class DummyTest {
     public static void print() {
         System.out.println("Вывод на экран");
     }
+
+    public static void hellFromTsarik() {
+        System.out.println("Hello from Tsarik!");
+    }
 }
