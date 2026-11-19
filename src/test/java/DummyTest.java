@@ -3,6 +3,14 @@ public class DummyTest {
         System.out.println("Hello from Malkova!");
     }
 
+    public static void print() {
+        System.out.println("Вывод на экран");
+    }
+
+    public static void hellFromTsarik() {
+        System.out.println("Hello from Tsarik!");
+    }
+
     public static int sumArray(){
         System.out.println(sumArray());
         return 0;
