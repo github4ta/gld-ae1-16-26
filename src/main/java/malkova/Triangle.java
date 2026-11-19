@@ -11,9 +11,12 @@ public class Triangle implements Figure {
         this.sideC = sideC;
     }
 
-    @Override
     public double calculateArea() {
         double halfPerimetr = (sideA + sideB + sideC) / 2;
         return Math.sqrt(halfPerimetr * (halfPerimetr - sideA) * (halfPerimetr - sideB) * (halfPerimetr - sideC));
+    }
+
+    public double calculatePerimetr() {
+        return sideA + sideB + sideC;
     }
 }
