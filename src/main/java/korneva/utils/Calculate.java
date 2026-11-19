@@ -1,14 +1,6 @@
 package korneva.utils;
 
 public class Calculate {
-    static void main() {
-        int[] nums = {18, 25, 100, 0, 99, -5, -25};
-        System.out.println(getMax(nums));
-        System.out.println(getMin(nums));
-        System.out.println(getSumOfArrayElements(nums));
-        System.out.println(getEverage(15, 25, 15));
-    }
-
     public static int getMax(int[] nums) {
         int max = nums[0];
         for (int i = 0; i < nums.length; i++) {
