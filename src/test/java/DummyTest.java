@@ -1,8 +1,13 @@
 public class DummyTest {
-    public static void helloFromMalkova(){
+    public static void helloFromMalkova() {
         System.out.println("Hello from Malkova!");
     }
-    public static void print(){
-        System.out.println("вывод на экран");
+
+    public static void print() {
+        System.out.println("Вывод на экран");
+    }
+
+    public static void hellFromTsarik() {
+        System.out.println("Hello from Tsarik!");
     }
 }
