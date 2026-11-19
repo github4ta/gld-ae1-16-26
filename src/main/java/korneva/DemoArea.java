@@ -2,17 +2,17 @@ package korneva;
 
 public class DemoArea {
     static void main() {
-        AreaOfACircle areaOfACircle = new AreaOfACircle(12);
+        Circle circle = new Circle(12);
         double area;
-        area = areaOfACircle.area();
+        area = circle.area();
         System.out.println("Площадь круга равна: " + area);
 
-        AreaOfARectangle areaOfARectangle = new AreaOfARectangle(5.5, 10.2);
-        area = areaOfARectangle.area();
+        Rectangle rectangle = new Rectangle(5.5, 10.2);
+        area = rectangle.area();
         System.out.println("Площадь прямоугольника равна: " + area);
 
-        AreaOfATriangle areaOfATriangle = new AreaOfATriangle(5.0, 5.0, 5.0);
-        area = areaOfATriangle.area();
+        Triangle triangle = new Triangle(5.0, 5.0, 5.0);
+        area = triangle.area();
         System.out.println("Площадь треугольника равна: " + area);
     }
 }

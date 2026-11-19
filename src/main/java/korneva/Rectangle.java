@@ -1,10 +1,10 @@
 package korneva;
 
-public class AreaOfARectangle {
+public class Rectangle {
     double sideA;
     double sideB;
 
-    public AreaOfARectangle(double sideA, double sideB) {
+    public Rectangle(double sideA, double sideB) {
         this.sideA = sideA;
         this.sideB = sideB;
     }

@@ -1,13 +1,15 @@
 package korneva;
 
-public class AreaOfACircle {
+public class Circle {
     double radius;
 
-    public AreaOfACircle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     double area() {
         return Math.PI * (radius * radius);
     }
+
+
 }
