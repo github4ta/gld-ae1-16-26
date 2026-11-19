@@ -22,4 +22,9 @@ public class DummyClass {
     public static void helloFromDunets() {
         System.out.println("Hello from Dunets!");
     }
+
+    public static void print(){
+        System.out.println("Вывод на экран");
+    }
+
 }
