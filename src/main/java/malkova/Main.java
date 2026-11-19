@@ -9,5 +9,9 @@ public class Main {
         System.out.println("Circle's area = " + circle.calculateArea());
         System.out.println("Rectangle's area = " + rectangle.calculateArea());
         System.out.println("Triangle's area = " + triangle.calculateArea());
+
+        System.out.println("Circle's perimetr = " + circle.calculatePerimetr());
+        System.out.println("Rectangle's perimetr = " + rectangle.calculatePerimetr());
+        System.out.println("Triangle's perimetr = " + triangle.calculatePerimetr());
     }
 }
