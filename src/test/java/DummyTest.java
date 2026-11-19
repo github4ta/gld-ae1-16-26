@@ -10,4 +10,9 @@ public class DummyTest {
     public static void hellFromTsarik() {
         System.out.println("Hello from Tsarik!");
     }
+
+    public static int sumArray(){
+        System.out.println(sumArray());
+        return 0;
+    }
 }
