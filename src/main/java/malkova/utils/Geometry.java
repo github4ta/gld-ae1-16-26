@@ -19,4 +19,9 @@ public class Geometry {
         }
         return result;
     }
+
+    public static int getHyp(int k1, int k2) {
+        int hyp = (int) Math.sqrt(Math.pow(k1, 2) + Math.pow(k2, 2));
+        return hyp;
+    }
 }
