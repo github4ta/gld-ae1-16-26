@@ -23,8 +23,4 @@ public class DummyClass {
         System.out.println("Hello from Dunets!");
     }
 
-    public static void print(){
-        System.out.println("Вывод на экран");
-    }
-
 }
