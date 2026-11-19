@@ -12,4 +12,8 @@ public class Rectangle implements Figure {
     public double calculateArea() {
         return width * length;
     }
+
+    public double calculatePerimetr() {
+        return 2 * (width + length);
+    }
 }
