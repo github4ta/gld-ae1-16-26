@@ -1,11 +1,13 @@
 public class DummyClass {
-    public static void helloFromManeha(){
+    public static void helloFromManeha() {
         System.out.println("Hello from Maneha!");
     }
+
     public static void helloFromKorneva() {
         System.out.println("Hello from Korneva!");
     }
-    public static void helloFromKurochkina(){
+
+    public static void helloFromKurochkina() {
         System.out.println("Hello from Kurochkina");
     }
 
