@@ -1,11 +1,10 @@
-import korneva.utils.Calculate;
-import korneva.utils.Check;
-import korneva.utils.Printer;
-import korneva.utils.RandomData;
+import korneva.utils.*;
 import korneva.utils.phone.Phone;
 import korneva.utils.test.math.Geometry;
 
 import java.util.Arrays;
+
+import static korneva.utils.MyTime.getTimeInHoursMinutesSeconds;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,5 +50,8 @@ public class Main {
         phone2.receiveCall("Pit", "+375299999999");
         System.out.println("Номер первого телефона: " + phone1.getNumber());
         phone3.sendMessage("+375291111111", "+375292222222", "+375294444444");
+
+        System.out.println("------------------------------");
+        System.out.println(getTimeInHoursMinutesSeconds(12469));
     }
 }
