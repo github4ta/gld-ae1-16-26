@@ -2,14 +2,20 @@ package satsuk;
 
 public class Main {
     public static void main(String[] args) {
-        CircleArea circleArea = new CircleArea(4.1, 3.14);
-        System.out.println("площадь круга: " + CircleArea.square(circleArea.getRadius(), circleArea.getPi()));
+        Circle circle = new Circle(4.1);
+        Rectangle rectangle = new Rectangle(5, 4);
+        Triangle triangle = new Triangle(6, 4, 5, 3);
 
-        RectangleArea rectangleArea = new RectangleArea(5, 4);
-        System.out.println("площадь прямоугольника: " + rectangleArea.square());
+        System.out.println("площадь круга: " + circle.square());
+        System.out.println("периметр круга: " + circle.perimeter());
+        System.out.println();
 
-        TriangleArea triangleArea = new TriangleArea(6, 4);
-        System.out.println("площадь треугольника: " + triangleArea.square());
+        System.out.println("площадь прямоугольника: " + rectangle.square());
+        System.out.println("периметр прямоугольника: " + rectangle.perimeter());
+        System.out.println();
+
+        System.out.println("площадь треугольника: " + triangle.square());
+        System.out.println("периметр треугольника: " + triangle.perimeter());
 
     }
 }
