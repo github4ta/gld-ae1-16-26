@@ -17,7 +17,7 @@ public class Triangle {
         return Math.sqrt(p * ((p - sideA) * (p - sideB) * (p - sideC)));
     }
 
-    double perimeter(){
-       return sideA + sideB + sideC;
+    double perimeter() {
+        return sideA + sideB + sideC;
     }
 }

@@ -11,5 +11,7 @@ public class Circle {
         return Math.PI * (radius * radius);
     }
 
-
+    double perimeter() {
+        return 2 * Math.PI * radius;
+    }
 }

@@ -12,4 +12,8 @@ public class Rectangle {
     double area() {
         return sideA * sideB;
     }
+
+    double perimeter() {
+        return 2 * (sideA + sideB);
+    }
 }
