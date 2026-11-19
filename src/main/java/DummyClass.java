@@ -1,4 +1,7 @@
 public class DummyClass {
+    public static void helloFromKorneva() {
+        System.out.println("Hello from Korneva!");
+    }
     public static void helloFromKurochkina(){
         System.out.println("Hello from Kurochkina");
     }
