@@ -36,7 +36,5 @@ public class Main {
         fruits.add(catalogItemPear);
 
         CatalogSubcategory catalogSubcategoryFruits = new CatalogSubcategory("Фрукты", fruits);
-
-        System.out.println(catalogSubcategoryFruits);
     }
 }
